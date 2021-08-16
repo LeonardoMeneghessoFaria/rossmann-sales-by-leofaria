@@ -135,6 +135,14 @@ Agora é possível analisar as métricas e comparar a diferença de desempenho e
 |Worst Scenario	   |R$285.115,015.78|
 |Best Scenery      |R$286.605,979.91|
 
+# Como ver o modelo em produção executando a predição de vendas
 
+- Fazer download do telegram no celular, no computador ou utilizar o telegram web; 
+- Criar uma conta no telegram;
+- Fazer login no telegram; 
+
+# Telegram Bot
+
+Para acessar o bot do telegram clique abaixo:
 
 
