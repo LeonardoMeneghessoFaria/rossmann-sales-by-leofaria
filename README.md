@@ -59,7 +59,7 @@ O método que apliquei no projeto foi o CRISP-DM:
 
 - Step 11. Criação de um bot no app do telegrama, para consultar a previsão a qualquer momento e em qualquer lugar.
 
-# Três principais insights
+# Três principais Insights
 
 - Hypothesis 2 - As lojas com concorrentes mais próximos deveriam vender menos.
 
