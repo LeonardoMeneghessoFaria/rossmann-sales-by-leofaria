@@ -13,7 +13,6 @@ O CFO solicita a previsão de cada loja em uma reunião mensal, pois era difíci
 
 # Lista de Atributos
 
-
 | Atributos                        | Descrições                                                     |
 | -------------------------------- | ------------------------------------------------------------ |
 | Id                               | Um id que representa uma (loja, data) dupla dentro do conjunto de teste|
@@ -57,19 +56,19 @@ O método que apliquei no projeto foi o CRISP-DM:
 - Step 11. Criação de um bot no app do telegrama, para consultar a previsão a qualquer momento e em qualquer lugar.
 
 # Três principais insights
-Hypothesis 2 - As lojas com concorrentes mais próximos deveriam vender menos.
+- Hypothesis 2 - As lojas com concorrentes mais próximos deveriam vender menos.
 
 FALSE: As lojas com concorrentes mais próximos vendem mais.
 
 ![image](https://user-images.githubusercontent.com/87080266/129576697-4a011cde-da5f-40b7-ac7c-b93f1f6c2efc.png)
 
-Hypothesis H9. As lojas da loja vendem mais com o passar dos anos.
+- Hypothesis H9. As lojas da loja vendem mais com o passar dos anos.
 
 FALSE: As lojas vendem menos ao longo dos anos
 
 ![image](https://user-images.githubusercontent.com/87080266/129579189-b08148ee-cd51-4955-b372-79fa151a293c.png)
 
-Hypothesis 11. - As lojas devem vender mais a partir do dia 10 de cada mês.
+- Hypothesis 11. - As lojas devem vender mais a partir do dia 10 de cada mês.
 
 TRUE: As lojas vendem mais a partir do dia 10 de cada mês.
 
@@ -89,7 +88,7 @@ XGBoost Regressor
 
 # Machine Learning Model Performance
 
-Single Performance
+- Single Performance
 
 |Model Name               |	MAE        |MAPE      |	RMSE|
 | ------------------------|------------|----------|-----|
@@ -99,7 +98,7 @@ Single Performance
 |Linear Regression	      |1867.089774 |0.292694	|2671.049215|
 |Linear Regression - Lasso|1869.571858 |0.288111	|2694.005137|
 
-Real Performance - Cross Validation
+- Real Performance - Cross Validation
 
 |Model Name               |	MAE CV           |MAPE CV        |	RMSE CV          |
 | ------------------------|------------------|---------------|-------------------|
@@ -110,10 +109,32 @@ Real Performance - Cross Validation
 
 Embora o modelo Random Forest tenha se mostrado superior aos demais, em alguns casos esse modelo acaba exigindo muito espaço para ser publicado, resultando em um custo extra para a empresa mantê-lo funcionando. Portanto, o algoritmo escolhido foi o XGBoost Regressor que em sequência passou para a etapa de Fine Tunning de Hiperparâmetros.
 
-Final Performance - Hyperparameter Fine Tunning Cross Validation
+- Final Performance - Hyperparameter Fine Tunning Cross Validation
 
 Depois de encontrar os melhores parâmetros para o modelo por meio do método de pesquisa aleatória, as métricas finais para o modelo foram as seguintes:
 
 |Model Name               |	MAE CV           |MAPE CV        |	RMSE CV          |
 | ------------------------|------------------|---------------|-------------------|
 |XGBoost Regressor        |1030.28 +/- 167.19|0.14 +/- 0.02	 |1478.26 +/- 229.79 |
+
+# Desempenho do modelo em valores de negócios
+
+Agora é possível analisar as métricas e comparar a diferença de desempenho entre o modelo atual utilizado pela empresa (Média das vendas) e o modelo proposto pelo cientista de dados (XGBoost Regressor).
+
+- Modelo atual baseado em vendas médias
+
+|Scenery           |	Values         |
+| -----------------|-----------------|
+|Predictions       |R$ 280,754,389.45|
+
+- Model with XGBoost Regression
+
+|Scenery           |	Values        |
+| -----------------|----------------|
+|Predictions       |R$285,860,497.84|
+|Worst Scenario	   |R$285.115,015.78|
+|Best Scenery      |R$286.605,979.91|
+
+
+
+
