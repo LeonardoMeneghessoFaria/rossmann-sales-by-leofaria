@@ -98,3 +98,12 @@ Single Performance
 |Average Model	          |1354.800353 |0.455051	|1835.135542|
 |Linear Regression	      |1867.089774 |0.292694	|2671.049215|
 |Linear Regression - Lasso|1869.571858 |0.288111	|2694.005137|
+
+Real Performance - Cross Validation
+
+|Model Name               |	MAE CV           |MAPE CV        |	RMSE CV          |
+| ------------------------|------------------|---------------|-------------------|
+|Random Forest Regressor  |838.18 +/- 218.74 |0.12 +/- 0.02	|1256.87 +/- 319.67|
+|XGBoost Regressor	      |1030.28 +/- 167.19|0.14 +/- 0.02	|1478.26 +/- 229.79|
+|Linear Regression	      |2081.73 +/- 295.63|0.3 +/- 0.02  |2952.52 +/- 468.37|
+|Linear Regression - Lasso|2088.88 +/- 327.01|0.3 +/- 0.01  |2988.6 +/- 499.57 |
