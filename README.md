@@ -162,7 +162,7 @@ Se o bot Rossmann receber algo diferente de números, ele responderá Store ID i
 
 ![image](https://user-images.githubusercontent.com/87080266/129598871-ea72a747-e26c-48cb-a182-ef6f7857d49a.png)
 
-#  Next steps
+#  Próximos ciclos do CRISP
 
 Iniciar um segundo ciclo de análise do problema, buscando diferentes abordagens, principalmente considerando lojas com comportamento difícil de prever. Nessas lojas, o cientista de dados deve ganhar bastante experiência.
 
