@@ -107,3 +107,13 @@ Real Performance - Cross Validation
 |XGBoost Regressor	      |1030.28 +/- 167.19|0.14 +/- 0.02	|1478.26 +/- 229.79|
 |Linear Regression	      |2081.73 +/- 295.63|0.3 +/- 0.02  |2952.52 +/- 468.37|
 |Linear Regression - Lasso|2088.88 +/- 327.01|0.3 +/- 0.01  |2988.6 +/- 499.57 |
+
+Embora o modelo Random Forest tenha se mostrado superior aos demais, em alguns casos esse modelo acaba exigindo muito espaço para ser publicado, resultando em um custo extra para a empresa mantê-lo funcionando. Portanto, o algoritmo escolhido foi o XGBoost Regressor que em sequência passou para a etapa de Fine Tunning de Hiperparâmetros.
+
+Final Performance - Hyperparameter Fine Tunning Cross Validation
+
+Depois de encontrar os melhores parâmetros para o modelo por meio do método de pesquisa aleatória, as métricas finais para o modelo foram as seguintes:
+
+|Model Name               |	MAE CV           |MAPE CV        |	RMSE CV          |
+| ------------------------|------------------|---------------|-------------------|
+|XGBoost Regressor        |1030.28 +/- 167.19|0.14 +/- 0.02	 |1478.26 +/- 229.79 |
