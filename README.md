@@ -62,3 +62,39 @@ Hypothesis 2 - As lojas com concorrentes mais próximos deveriam vender menos.
 FALSE: As lojas com concorrentes mais próximos vendem mais.
 
 ![image](https://user-images.githubusercontent.com/87080266/129576697-4a011cde-da5f-40b7-ac7c-b93f1f6c2efc.png)
+
+Hypothesis H9. As lojas da loja vendem mais com o passar dos anos.
+
+FALSE: As lojas vendem menos ao longo dos anos
+
+![image](https://user-images.githubusercontent.com/87080266/129579189-b08148ee-cd51-4955-b372-79fa151a293c.png)
+
+Hypothesis 11. - As lojas devem vender mais a partir do dia 10 de cada mês.
+
+TRUE: As lojas vendem mais a partir do dia 10 de cada mês.
+
+![image](https://user-images.githubusercontent.com/87080266/129579448-5957f4ff-c678-439e-ada4-f7bb118b1a55.png)
+
+# Machine Learning aplicados
+
+Os testes foram realizados usando os seguintes algoritmos:
+
+Linear Regression Model
+
+Linear Regression Regularized Model - Lasso
+
+Random Forest Regressor
+
+XGBoost Regressor
+
+# Machine Learning Model Performance
+
+Single Performance
+
+|Model Name               |	MAE        |MAPE      |	RMSE|
+| ------------------------|------------|----------|-----|
+|Random Forest Regressor  |	678.296634 |0.099816	|1008.248950|
+|XGBoost Regressor	      |843.112293	 |0.122609	|1250.952637|
+|Average Model	          |1354.800353 |0.455051	|1835.135542|
+|Linear Regression	      |1867.089774 |0.292694	|2671.049215|
+|Linear Regression - Lasso|1869.571858 |0.288111	|2694.005137|
