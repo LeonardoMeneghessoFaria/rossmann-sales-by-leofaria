@@ -61,19 +61,19 @@ O método que apliquei no projeto foi o CRISP-DM:
 
 # Três principais Insights
 
-- Hypothesis 2 - As lojas com concorrentes mais próximos deveriam vender menos.
+- Hipótese 2 - As lojas com concorrentes mais próximos deveriam vender menos.
 
 FALSE: As lojas com concorrentes mais próximos vendem mais.
 
 ![image](https://user-images.githubusercontent.com/87080266/129576697-4a011cde-da5f-40b7-ac7c-b93f1f6c2efc.png)
 
-- Hypothesis H9. As lojas da loja vendem mais com o passar dos anos.
+- Hipótese H9. As lojas da loja vendem mais com o passar dos anos.
 
 FALSE: As lojas vendem menos ao longo dos anos
 
 ![image](https://user-images.githubusercontent.com/87080266/129579189-b08148ee-cd51-4955-b372-79fa151a293c.png)
 
-- Hypothesis 11. - As lojas devem vender mais a partir do dia 10 de cada mês.
+- Hipótese 11. - As lojas devem vender mais a partir do dia 10 de cada mês.
 
 TRUE: As lojas vendem mais a partir do dia 10 de cada mês.
 
