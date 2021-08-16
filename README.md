@@ -187,7 +187,7 @@ O Modelo XGBoost para o primeiro ciclo (Metodologia CRISP-DM) apresentou um resu
 - Python;
 - Jupyter.
  
-# Author
+# Autor
 
 Leonardo Meneghesso Faria
 
