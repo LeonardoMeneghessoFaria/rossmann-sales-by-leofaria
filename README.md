@@ -187,12 +187,6 @@ O Modelo XGBoost para o primeiro ciclo (Metodologia CRISP-DM) apresentou um resu
 - Python;
 - Jupyter.
  
-# Deployment into production
-
-- Back end: Heroku;
-- Front end web: Telegram;
-- Database: kaggle csv files.
-
 # Author
 
 Leonardo Meneghesso Faria
