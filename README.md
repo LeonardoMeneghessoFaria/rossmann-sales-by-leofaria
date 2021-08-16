@@ -1,12 +1,15 @@
 # Rossmann Store Sales Prediction
+
 Predição de vendas usando Machine Learning
 
 ![machine-learning](https://user-images.githubusercontent.com/87080266/129563112-146c946e-dfdb-4f6d-8721-246ebf7a5458.jpg)
 
 # Problema da Loja
+
 O CFO solicita a previsão de cada loja em uma reunião mensal, pois era difícil saber o melhor valor de investimento para as reformas de cada loja, devido à previsão fornecida pelos diretores não ser assertiva, havia muitos erros no valor necessitado. Então, para resolver esse problema, usei algoritmos de Machine Learning para prever precisamente como seria a previsão da loja nas próximas seis semanas.
 
 # Suposições
+
 - Os dias em que as lojas estavam fechadas foram descartados.
 - Apenas lojas com vendas maiores que 0 foram consideradas para a predição.
 - Para lojas que não tinham informações sobre a distância das competições, foi assumido que a distância seria duas vezes maior do que a maior distância de um concorrente mais próximo.
@@ -32,6 +35,7 @@ O CFO solicita a previsão de cada loja em uma reunião mensal, pois era difíci
 | Promointerval                    | Descreve os intervalos consecutivos em que a promoção2 é iniciada, nomeando os meses em que a promoção é iniciada novamente|
 
 # Estratégia de Solução
+
 O método que apliquei no projeto foi o CRISP-DM:
 - Step 01. O objetivo é usar métricas estatísticas para identificar outliers no escopo do negócio.
 
@@ -56,6 +60,7 @@ O método que apliquei no projeto foi o CRISP-DM:
 - Step 11. Criação de um bot no app do telegrama, para consultar a previsão a qualquer momento e em qualquer lugar.
 
 # Três principais insights
+
 - Hypothesis 2 - As lojas com concorrentes mais próximos deveriam vender menos.
 
 FALSE: As lojas com concorrentes mais próximos vendem mais.
@@ -149,15 +154,50 @@ Para acessar o bot do telegram clique abaixo:
 
 # Predição em tempo real
 
-Envie um número por vez para receber a previsão da loja com base nas próximas seis semanas.
+Envie um número por vez para receber a predição da loja com base nas próximas seis semanas.
 
+![image](https://user-images.githubusercontent.com/87080266/129598095-9bb8c6e4-83ef-4cf8-8ea2-4ed0695493f1.png)
 
+Se o bot Rossmann receber algo diferente de números, ele responderá Store ID is Wrong. No banco de dados utilizado pode ocorrer que tenha algumas lojas indisponíveis para predição, então ele responderá de volta Store Not Available. Se isso acontecer, você pode requisitar a predição de uma outra loja e seguir em frente.
 
+![image](https://user-images.githubusercontent.com/87080266/129598871-ea72a747-e26c-48cb-a182-ef6f7857d49a.png)
 
+#  Next steps
 
+Iniciar um segundo ciclo de análise do problema, buscando diferentes abordagens, principalmente considerando lojas com comportamento difícil de prever. Nessas lojas, o cientista de dados deve ganhar bastante experiência.
 
+Possíveis pontos a serem abordados no segundo ciclo:
 
+-**Trabalhe com os dados de NA de maneira diferente**
 
+-**Reescalonamento e codificação de dados com diferentes metodologias**
+
+-**Trabalhe com novos recursos de previsão**
+
+-**Trabalhe com um método mais robusto para encontrar os melhores parâmetros Hyper para o modelo**
+
+# Conclusão
+
+Por fim, é possível compreender que embora o modelo baseado em médias seja simples, ele ainda é coerente, porém não é o suficiente para compreender a oscilação das vendas das lojas, já os modelos de machine learning possuem uma precisão mais perto do real, informando assim o melhor e o pior cenário.
+
+O Modelo XGBoost para o primeiro ciclo (Metodologia CRISP-DM) apresentou um resultado dentro da faixa aceitável, embora algumas lojas tenham sido difíceis de ter o comportamento esperado apresentando o MAPE (Mean Absolute Percenage Error) entre 0,30 a 0,56, este primeiro resultado irá ser apresentado à empresa, para informar o andamento do projeto e o que já está disponível como solução.
+
+# Tecnologias usadas
+
+- Python;
+- Jupyter.
+ 
+# Deployment into production
+
+- Back end: Heroku;
+- Front end web: Telegram;
+- Database: kaggle csv files.
+
+# Author
+
+Leonardo Meneghesso Faria
+
+[<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/leonardo-meneghesso-faria-92553b155/)
 
 
 
