@@ -67,7 +67,7 @@ FALSE: As lojas com concorrentes mais próximos vendem mais.
 
 ![image](https://user-images.githubusercontent.com/87080266/129576697-4a011cde-da5f-40b7-ac7c-b93f1f6c2efc.png)
 
-- Hipótese H9. As lojas da loja vendem mais com o passar dos anos.
+- Hipótese 9. As lojas da loja vendem mais com o passar dos anos.
 
 FALSE: As lojas vendem menos ao longo dos anos
 
