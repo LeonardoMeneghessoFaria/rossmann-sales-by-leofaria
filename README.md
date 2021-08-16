@@ -158,7 +158,7 @@ Envie um número por vez para receber a predição da loja com base nas próxima
 
 ![image](https://user-images.githubusercontent.com/87080266/129598095-9bb8c6e4-83ef-4cf8-8ea2-4ed0695493f1.png)
 
-Se o bot Rossmann receber algo diferente de números, ele responderá Store ID is Wrong. No banco de dados utilizado pode ocorrer que tenha algumas lojas indisponíveis para predição, então ele responderá de volta Store Not Available. Se isso acontecer, você pode requisitar a predição de uma outra loja e seguir em frente.
+Se o bot Rossmann receber algo diferente de números, ele responderá Store ID is Wrong. No banco de dados utilizado pode ocorrer que tenha algumas lojas indisponíveis para predição, então ele responderá Store Not Available. Se isso acontecer, você pode requisitar a predição de uma outra loja e seguir em frente.
 
 ![image](https://user-images.githubusercontent.com/87080266/129598871-ea72a747-e26c-48cb-a182-ef6f7857d49a.png)
 
