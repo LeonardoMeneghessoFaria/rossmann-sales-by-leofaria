@@ -182,7 +182,7 @@ Por fim, é possível compreender que embora o modelo baseado em médias seja si
 
 O Modelo XGBoost para o primeiro ciclo (Metodologia CRISP-DM) apresentou um resultado dentro da faixa aceitável, embora algumas lojas tenham sido difíceis de ter o comportamento esperado apresentando o MAPE (Mean Absolute Percenage Error) entre 0,30 a 0,56, este primeiro resultado irá ser apresentado à empresa, para informar o andamento do projeto e o que já está disponível como solução.
 
-# Tecnologias usadas
+# Tecnologias Utilizadas
 
 - Python;
 - Jupyter.
