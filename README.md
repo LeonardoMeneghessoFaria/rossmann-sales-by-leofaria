@@ -32,3 +32,4 @@ O CFO solicita a previsão de cada loja em uma reunião mensal, pois era difíci
 | Promo2since[year/week]           | Descreve o ano e a semana do calendário em que a loja começou a participar da promo2|
 | Promointerval                    | Descreve os intervalos consecutivos em que a promoção2 é iniciada, nomeando os meses em que a promoção é iniciada novamente|
 
+# Estratégia de Solução
