@@ -16,10 +16,10 @@ O CFO solicita a previsão de cada loja em uma reunião mensal, pois era difíci
 
 | Atributos                        | Descrições                                                     |
 | -------------------------------- | ------------------------------------------------------------ |
-| Id                               | |
-| Store                            | |
-| Sales                            | |
-| Customers                        | |
+| Id                               | Um id que representa uma (loja, data) dupla dentro do conjunto de teste|
+| Store                            | Um id único para cada loja|
+| Sales                            | O volume de venda da loja|
+| Customers                        | O número de clientes em um determinado dia|
 | Open                             | |
 | Stateholiday                     | |
 | Schoolholiday                    | |
@@ -31,3 +31,4 @@ O CFO solicita a previsão de cada loja em uma reunião mensal, pois era difíci
 | Promo2                           | |
 | Promo2since[year/week]           | |
 | Promointerval                    | |
+
