@@ -55,3 +55,5 @@ O método que apliquei no projeto foi o CRISP-DM:
 - Step 10. Publique o modelo em um ambiente de nuvem para que outras pessoas ou serviços possam usar os resultados para melhorar a decisão de negócios.
 
 - Step 11. Criação de um bot no app do telegrama, para consultar a previsão a qualquer momento e em qualquer lugar.
+
+# Três principais insights
