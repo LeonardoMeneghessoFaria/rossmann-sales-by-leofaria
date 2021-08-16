@@ -10,3 +10,6 @@ O CFO solicita a previsão de cada loja em uma reunião mensal, pois era difíci
 - Os dias em que as lojas estavam fechadas foram descartados.
 - Apenas lojas com vendas maiores que 0 foram consideradas para a predição.
 - Para lojas que não tinham informações sobre a distância das competições, foi assumido que a distância seria duas vezes maior do que a maior distância de um concorrente mais próximo.
+
+# Lista de Atributos
+|id|
