@@ -145,4 +145,21 @@ Agora é possível analisar as métricas e comparar a diferença de desempenho e
 
 Para acessar o bot do telegram clique abaixo:
 
+[<img alt="Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>](https://t.me/rossmann_by_leofaria_bot)
+
+# Predição em tempo real
+
+Envie um número por vez para receber a previsão da loja com base nas próximas seis semanas.
+
+
+
+
+
+
+
+
+
+
+
+
 
