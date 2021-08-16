@@ -117,7 +117,7 @@ Depois de encontrar os melhores parâmetros para o modelo por meio do método de
 | ------------------------|------------------|---------------|-------------------|
 |XGBoost Regressor        |1030.28 +/- 167.19|0.14 +/- 0.02	 |1478.26 +/- 229.79 |
 
-# Desempenho do modelo em valores de negócios
+# Desempenho do modelo em valores de receita
 
 Agora é possível analisar as métricas e comparar a diferença de desempenho entre o modelo atual utilizado pela empresa (Média das vendas) e o modelo proposto pelo cientista de dados (XGBoost Regressor).
 
