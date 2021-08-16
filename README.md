@@ -33,3 +33,25 @@ O CFO solicita a previsão de cada loja em uma reunião mensal, pois era difíci
 | Promointerval                    | Descreve os intervalos consecutivos em que a promoção2 é iniciada, nomeando os meses em que a promoção é iniciada novamente|
 
 # Estratégia de Solução
+O método que apliquei no projeto foi o CRISP-DM:
+- Step 01. O objetivo é usar métricas estatísticas para identificar outliers no escopo do negócio.
+
+- Step 02. Derive novos atributos com base nas variáveis originais para descrever melhor o fenômeno a ser modelado.
+
+- Step 03. Filtre as linhas e selecione as colunas que não contêm informações para modelagem ou não correspondem ao escopo do negócio.
+
+- Step 04. Explore os dados para encontrar insights e entender melhor o impacto das variáveis no aprendizado do modelo.
+
+- Step 05. Prepare os dados para que os modelos de machine learning possam aprender um comportamento específico.
+
+- Step 06. Seleção dos atributos mais significativos para treinar o modelo.
+
+- Step 07. Treinamento de modelo de machine learning.
+
+- Step 08. Escolha os melhores valores para cada um dos parâmetros do modelo selecionado na etapa anterior.
+
+- Step 09. Converta o desempenho do modelo em um resultado de negócios.
+
+- Step 10. Publique o modelo em um ambiente de nuvem para que outras pessoas ou serviços possam usar os resultados para melhorar a decisão de negócios.
+
+- Step 11. Criação de um bot no app do telegrama, para consultar a previsão a qualquer momento e em qualquer lugar.
