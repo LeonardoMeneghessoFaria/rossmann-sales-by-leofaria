@@ -168,13 +168,13 @@ Iniciar um segundo ciclo de análise do problema, buscando diferentes abordagens
 
 Possíveis pontos a serem abordados no segundo ciclo:
 
--**Trabalhe com os dados de NA de maneira diferente**
+- **Trabalhe com os dados de NA de maneira diferente**
 
--**Reescalonamento e codificação de dados com diferentes metodologias**
+- **Reescalonamento e codificação de dados com diferentes metodologias**
 
--**Trabalhe com novos recursos de previsão**
+- **Trabalhe com novos recursos de previsão**
 
--**Trabalhe com um método mais robusto para encontrar os melhores parâmetros Hyper para o modelo**
+- **Trabalhe com um método mais robusto para encontrar os melhores parâmetros Hyper para o modelo**
 
 # Conclusão
 
