@@ -180,7 +180,7 @@ Possíveis pontos a serem abordados no segundo ciclo:
 
 Por fim, é possível compreender que embora o modelo baseado em médias seja simples, ele ainda é coerente, porém não é o suficiente para compreender a oscilação das vendas das lojas, já os modelos de machine learning possuem uma precisão mais perto do real, informando assim o melhor e o pior cenário.
 
-O Modelo XGBoost para o primeiro ciclo (Metodologia CRISP-DM) apresentou um resultado dentro da faixa aceitável, embora algumas lojas tenham sido difíceis de ter o comportamento esperado apresentando o MAPE (Mean Absolute Percenage Error) entre 0,30 a 0,56, este primeiro resultado irá ser apresentado à empresa, para informar o andamento do projeto e o que já está disponível como solução.
+O Modelo XGBoost para o primeiro ciclo (Metodologia CRISP-DM) apresentou um resultado dentro da faixa aceitável, embora algumas lojas tenham sido difíceis de ter o comportamento esperado apresentando o MAPE (Mean Absolute Percentage Error) entre 0,30 a 0,56, este primeiro resultado irá ser apresentado à empresa, para informar o andamento do projeto e o que já está disponível como solução.
 
 # Tecnologias Utilizadas
 
