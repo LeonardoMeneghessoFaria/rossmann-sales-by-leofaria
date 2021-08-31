@@ -118,9 +118,9 @@ Embora o modelo Random Forest tenha se mostrado superior aos demais, em alguns c
 
 Depois de encontrar os melhores parâmetros para o modelo por meio do método de pesquisa aleatória, as métricas finais para o modelo foram as seguintes:
 
-|Model Name               |	MAE CV           |MAPE CV        |	RMSE CV          |
+|Model Name               |	MAE           |MAPE         |	RMSE           |
 | ------------------------|------------------|---------------|-------------------|
-|XGBoost Regressor        |1030.28 +/- 167.19|0.14 +/- 0.02	 |1478.26 +/- 229.79 |
+|XGBoost Regressor        |664.974996|0.097529	 |957.774225 |
 
 # Desempenho do modelo em valores de receita
 
