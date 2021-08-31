@@ -185,7 +185,8 @@ O Modelo XGBoost para o primeiro ciclo (Metodologia CRISP-DM) apresentou um resu
 # Tecnologias Utilizadas
 
 - Python;
-- Jupyter.
+- Jupyter;
+- Machine Learning.
  
 # Autor
 
